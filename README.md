@@ -1,16 +1,19 @@
-# regulatory-style-clinpharm-report
-A concise, submission-style Clin Pharm/DMPK report that imports outputs from ada-panda-mini.
+# Regulatory-Style Clin Pharm Report
 
-Repo purpose
+A concise, **submission-style Clinical Pharmacology / DMPK report** that imports outputs from [`ada-panda-mini`](https://github.com/camontefusco/ada-panda-mini).
 
-Readers: regulatory reviewers, program leads, non-coding stakeholders.
+## 🎯 Purpose
+- **Audience:** regulatory reviewers, program leadership, non-coding stakeholders.  
+- **Inputs (from mini repo):**
+  - `reports/tlgs.parquet` (tables, listings, figures data)
+  - `reports/benchmarks.parquet` (PASS/ALERT flags)
+  - `reports/figures/` (pre-generated plots)
+- **Outputs:**  
+  - `output/ClinPharm_Summary.pdf` — concise submission-style report
+  - `output/ClinPharm_Summary.md` — same in Markdown (traceable, auditable)
 
-Inputs (from ada-panda-mini):
-reports/tlgs.parquet, reports/benchmarks.parquet, figures in reports/figures/.
+## 📂 Structure
 
-Outputs: output/ClinPharm_Summary.pdf (+ a web HTML if you want).
-
-Minimal file tree
 ```arduino
 regulatory-style-clinpharm-report/
 ├─ notebooks/
