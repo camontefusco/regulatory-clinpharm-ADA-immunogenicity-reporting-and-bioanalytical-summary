@@ -1,0 +1,31 @@
+# {{title}}
+
+**Product:** {{product}} • **Sponsor:** {{sponsor}}
+
+## 1. Bioanalytical Methods & Interference
+- Standard bridging ADA shows drug-dependent masking at therapeutic levels.
+- PandA (PEG + Acid) increases drug tolerance (≥80% recovery to ≥{{required_tol}} µg/mL).
+
+![Drug tolerance](output/figures/recovery_overlay_sim_vs_lit.png)
+
+PASS/ALERT summary:
+![PASS/ALERT](output/figures/pass_alert_table.png)
+
+## 2. Population PK & Variability (brief)
+- ADA positivity associates with reduced troughs at Week 52.
+![ADA vs exposure](output/figures/wk52_by_detected_ADA_assay.png)
+
+## 3. Exposure–Response & Target Attainment
+- True E–R trend shows reduced efficacy at low troughs.
+![True E–R](output/figures/exposure_response_true.png)
+
+Target attainment (percentage above threshold), by assay:
+`output/TLG_target_attainment.csv`
+
+## 4. Dose Recommendation
+- Given reduced exposure in ADA+ under standard detection, use **PandA-based immunogenicity** for PK/E–R decisions.
+- If clinical goal requires ≥X% target attainment, consider dose adjustment **only if** safety margin allows (placeholder language).
+
+## 5. Conclusions
+- Standard assay fails tolerance benchmark; PandA passes.
+- Use PandA for confirmatory ADA detection at therapeutic drug levels.
