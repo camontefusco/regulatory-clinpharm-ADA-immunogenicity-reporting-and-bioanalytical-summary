@@ -1,0 +1,23 @@
+{
+  "tlgs_rows": 800,
+  "tlgs_cols": [
+    "drug_ugmL",
+    "recovery",
+    "curve"
+  ],
+  "bench_rows": 4,
+  "bench_cols": [
+    "method",
+    "cutoff",
+    "required_drug_tolerance_ugmL",
+    "observed_drug_tolerance_ugmL",
+    "flag"
+  ],
+  "methods_in_bench": [
+    "PandA (lit)",
+    "PandA (sim)",
+    "Standard (lit)",
+    "Standard (sim)"
+  ],
+  "errors": []
+}

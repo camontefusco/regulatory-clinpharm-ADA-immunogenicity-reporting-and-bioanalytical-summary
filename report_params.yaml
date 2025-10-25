@@ -1,0 +1,6 @@
+fig_dir: /Users/cmontefusco/Coding projects/regulatory-style-clinpharm-report/output/figures
+product: Monoclonal X
+required_tol: 100
+sponsor: Demo Biotech
+tables_dir: /Users/cmontefusco/Coding projects/regulatory-style-clinpharm-report/output
+title: "Clinical Pharmacology Summary \u2013 ADA Drug Interference & PandA Correction"
